@@ -10,10 +10,10 @@ body {
   text-align: center;
   background-image: linear-gradient(90.1deg, rgba(8, 81, 98, 1) 14.5%, rgba(198, 231, 249, 1) 135.4%);
   font-family: "Arsenal", serif;
-  min-height: 100vh;
+  min-height: 100vh;  /* İçerik genişleyebilsin ama en az 100vh kadar olsun */
   display: flex;
   flex-direction: column;
-  overflow: hidden; /* Kaydırma engelleniyor */
+  overflow: auto;
 }
 
 .App {
@@ -22,7 +22,7 @@ body {
   gap: 1.2rem;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 1;  /* App'in, boş alanı kaplamasını sağlar */
 }
 
 .img-container {
@@ -71,13 +71,12 @@ h2 {
   max-width: 800px;
   width: 65%;
   margin: 0 auto;
-  position: relative;
-  display: none; /* Başlangıçta gizle */
-  text-align: center; /* Yalnızca yazı merkezde görünsün */
+  text-align: center;  /* Yalnızca yazı merkezde görünsün */
+  display: none;  /* Başlangıçta gizle */
 }
 
 .details-container.show {
-  display: block; /* 'show' sınıfı eklenince yazıyı göster */
+  display: block;  /* 'show' sınıfı eklenince yazıyı göster */
 }
 
 p {
@@ -101,8 +100,11 @@ p {
     padding: 0.3rem;
   }
 
-  h2,
-  h3 {
+  h2, h3 {
+    font-size: 1rem;
+  }
+
+  p {
     font-size: 1rem;
   }
 }

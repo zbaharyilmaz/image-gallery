@@ -22,12 +22,13 @@ function App() {
 
   const handleMoreDetails = () => {
     setShowMore(!showMore);
+
     if (!showMore) {
       // Sayfayı yazıya kaydır
       setTimeout(() => {
-        window.scrollTo({
-          top: document.querySelector(".details-container").offsetTop,
+        document.querySelector(".details-container").scrollIntoView({
           behavior: "smooth",
+          block: "start", // Üst kısımda gösterilsin
         });
       }, 100);
     }
