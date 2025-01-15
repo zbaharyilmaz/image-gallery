@@ -25,7 +25,7 @@ body{
 }
 .images:hover {
   transform: scale(1.03); 
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7); /* Hover sırasında gölge daha belirgin olur */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7); 
 }
 .photographer{
   color: rgb(162, 61, 61);
@@ -51,19 +51,19 @@ h2{
 }
 @media (max-width: 768px) {
   body {
-    font-size: 0.9rem; /* Daha küçük font */
+    font-size: 0.9rem; 
   }
 
   .img-container {
-    width: 90%; /* Görsel genişliği mobilde daha küçük olur */
+    width: 90%;
   }
 
   button {
-    font-size: 1rem; /* Daha küçük düğme yazı boyutu */
-    padding: 0.3rem; /* Daha küçük düğme iç boşluğu */
+    font-size: 1rem; 
+    padding: 0.3rem; 
   }
 
   h2, h3 {
-    font-size: 1rem; /* Başlıklar daha küçük olur */
+    font-size: 1rem; 
   }
 }
