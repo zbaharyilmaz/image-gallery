@@ -33,7 +33,7 @@ This repository contains the source code for a simple React-based image gallery 
 ### Live Page
 
 Click the link below to view the live version of the app:
-[Live Page]()  
+[Live Page](https://zbaharyilmaz.github.io/photo-contest-rankings/)  
 
 ## Installation Instructions
 
@@ -41,12 +41,12 @@ To get started with the Mental Health App project, follow these steps:
 
 Clone this repository to your local machine:
 ```
-git clone 
+git clone https://github.com/zbaharyilmaz/photo-contest-rankings.git
 ```
 Navigate into the project directory: 
 
 ```
-cd photo-contest-gallery
+cd photo-contest-rankings
 ```
 Install the required dependencies:
 ```
