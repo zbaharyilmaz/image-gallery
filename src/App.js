@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import { useState } from "react";
 import data from "./helper/data"; // Verilerin olduğu dosyaya doğru yolu ekleyin
 
@@ -36,22 +36,38 @@ function App() {
 
   return (
     <div className="App">
-      <h2>
-        <i>Black and White Photo Contest</i> Top 30 Rankings
-      </h2>
-      <h3>
-        <i>Photo by <span className="photographer">{photoData.photographer}</span></i>
-      </h3>
-      <h4>({index + 1} of {data.length})</h4>
       <div>
-        <button onClick={handlePreviousClick} disabled={index === 0}>Previous</button>
-        <button onClick={handleNextClick} disabled={index === data.length - 1}>Next</button>
+       <h1>
+        Black & <span className="h1-span"> White</span>
+      </h1>
+      <h2>Photography Contest Top Rankings</h2> 
       </div>
+      <div>
+        <button onClick={handlePreviousClick} disabled={index === 0}>
+          Previous
+        </button>
+        <button onClick={handleNextClick} disabled={index === data.length - 1}>
+          Next
+        </button>
+      </div>
+     
       <div className="img-container">
-        <img className="images" src={photoData.src.large} alt={photoData.photographer} />
+      <h3 className="rank">
+        <i>
+          Rank #{index + 1}: Captured by{" "}
+          <span className="photographer">{photoData.photographer}</span>
+        </i>
+      </h3>
+        <img
+          className="images"
+          src={photoData.src.large}
+          alt={photoData.photographer}
+        />
       </div>
       <div>
-        <button onClick={handleMoreDetails}>{showMore ? "Hide Details" : "Show Details"}</button>
+        <button className="button-details" onClick={handleMoreDetails}>
+          {showMore ? "Hide Details" : "Show Details"}
+        </button>
         <div className={`details-container ${showMore ? "show" : ""}`}>
           {showMore && <p>{photoData.details}</p>}
         </div>

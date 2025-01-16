@@ -1,10 +1,10 @@
-## Photo Contest Gallery
+## Photography Contest Rankings
 
-This repository contains the source code for a simple React-based image gallery showcasing the Top 30 ranked photographs from the **"Black and White Photo Contest."** The application allows users to browse through the photographs with ease.
+This repository contains the source code for a simple React-based image gallery showcasing the Top 30 ranked photographs from the **"Black and White Photography Contest Rankings."** The application allows users to browse through the photographs with ease.
 
 ## Demo
 
-![Project Demo](./public/photo-contest-gallery.gif)
+![Project Demo](./public/photo-contest-rankings.gif)
 
 ## Features
 
@@ -33,7 +33,7 @@ This repository contains the source code for a simple React-based image gallery 
 ### Live Page
 
 Click the link below to view the live version of the app:
-[Live Page](https://zbaharyilmaz.github.io/photo-contest-gallery/)  
+[Live Page]()  
 
 ## Installation Instructions
 
@@ -41,7 +41,7 @@ To get started with the Mental Health App project, follow these steps:
 
 Clone this repository to your local machine:
 ```
-git clone https://github.com/zbaharyilmaz/photo-contest-gallery.git
+git clone 
 ```
 Navigate into the project directory: 
 

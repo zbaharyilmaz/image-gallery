@@ -1,21 +1,13 @@
 const data = [
+
   {
-    photographer: "Lucía Montenegro",
+    photographer: "Fidan Nazim Qizi",
     src: {
       large:
-        "https://images.pexels.com/photos/12185664/pexels-photo-12185664.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "https://images.pexels.com/photos/12155886/pexels-photo-12155886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     },
     details:
-      "A peaceful natural scene with soft lighting, showcasing tranquil colors and harmonious textures. A perfect representation of serenity.",
-  },
-  {
-    photographer: "Veronika Bykovich",
-    src: {
-      large:
-        "https://images.pexels.com/photos/12185506/pexels-photo-12185506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    },
-    details:
-      "Captivating minimalist artwork with romantic vibes, highlighting a soft contrast between light and shadows in an intimate setting.",
+      "An evocative photograph blending soft tones and intricate textures to tell a unique story of beauty and connection.",
   },
   {
     photographer: "ἐμμανυελ  ",
@@ -34,6 +26,15 @@ const data = [
     },
     details:
       "This artistic photograph portrays abstract yet captivating patterns with a focus on dynamic composition and surreal, dream-like color palettes.",
+  },
+  {
+    photographer: "Malik Skydsgaard",
+    src: {
+      large:
+        "https://images.pexels.com/photos/12132217/pexels-photo-12132217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    },
+    details:
+      "Beautifully composed, this minimalist scene incorporates subtle details with harmonious lighting for a clean and balanced artistic expression.",
   },
   {
     photographer: "op23",
@@ -72,23 +73,24 @@ const data = [
       "A reflective masterpiece showcasing bold contrasts, sharp textures, and emotional undertones, creating a deep and impactful photographic experience.",
   },
   {
-    photographer: "Malik Skydsgaard",
+    photographer: "Lucía Montenegro",
     src: {
       large:
-        "https://images.pexels.com/photos/12132217/pexels-photo-12132217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "https://images.pexels.com/photos/12185664/pexels-photo-12185664.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     },
     details:
-      "Beautifully composed, this minimalist scene incorporates subtle details with harmonious lighting for a clean and balanced artistic expression.",
+      "A peaceful natural scene with soft lighting, showcasing tranquil colors and harmonious textures. A perfect representation of serenity.",
   },
   {
-    photographer: "Fidan Nazim qizi",
+    photographer: "Veronika Bykovich",
     src: {
       large:
-        "https://images.pexels.com/photos/12155886/pexels-photo-12155886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "https://images.pexels.com/photos/12185506/pexels-photo-12185506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     },
     details:
-      "An evocative photograph blending soft tones and intricate textures to tell a unique story of beauty and connection.",
+      "Captivating minimalist artwork with romantic vibes, highlighting a soft contrast between light and shadows in an intimate setting.",
   },
+
   {
     photographer: "Philip Warp",
     src: {
@@ -241,7 +243,7 @@ const data = [
       "A visually appealing photograph showcasing pastel hues and intricate textures for a calming, meditative viewing experience.",
   },
   {
-    photographer: "GEORGE KASCHEEV",
+    photographer: "George Kascheev",
     src: {
       large:
         "https://images.pexels.com/photos/12052041/pexels-photo-12052041.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
